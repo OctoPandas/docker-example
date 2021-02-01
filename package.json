@@ -1,0 +1,23 @@
+{
+  "name": "docker-example",
+  "version": "1.0.0",
+  "description": "Getting started with Docker:",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OctoPandas/docker-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OctoPandas/docker-example/issues"
+  },
+  "homepage": "https://github.com/OctoPandas/docker-example#readme",
+  "dependencies": {
+    "koa": "^2.13.1"
+  }
+}

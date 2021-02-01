@@ -14,3 +14,17 @@ docker run -d -p 80:80 docker/getting-started
 ```bash
 docker run -dp 80:80 docker/getting-started
 ```
+
+## Dockerfile
+
+`FROM` is the basic image.
+
+Build the image:
+
+```bash
+docker build -t hello-world .
+docker run -dp 3000:3000 hello-world
+http :3000
+# `-t` is the tag of the image
+# `.` indicates the `Dockerfile`'s directory
+```
